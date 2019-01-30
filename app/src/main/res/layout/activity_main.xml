@@ -17,7 +17,7 @@
             android:layout_marginTop="20dp"
             android:id="@+id/goal"
             android:src="@drawable/download"
-            />
+            android:contentDescription="@string/img" />
 
         <TextView
 
