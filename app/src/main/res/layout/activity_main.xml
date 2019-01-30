@@ -1,100 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
 
 
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:id="@+id/goal"
+            android:src="@drawable/download"
+            />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="@string/mi"
+            android:textSize="30sp"
+            android:textStyle="bold"
+             />
+
+        <TextView
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="0dp"
+            android:text="@string/everyone_should_learn_everyday"
+            android:textSize="20sp" />
 
     <TextView
 
-        android:layout_width="117dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:text="@string/mi"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="140dp"
-        tools:ignore="MissingConstraints"
-        android:layout_marginLeft="10dp" />
-
-    <TextView
-
-        android:layout_width="240dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="20dp"
-        android:textSize="20sp"
-        android:text="@string/everyone_should_learn_everyday"
-        android:layout_marginStart="150dp" />
-
-    <TextView
-
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="80dp"
-        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
         android:textStyle="bold"
         android:text="@string/our_goals"
-        android:layout_marginStart="20dp" />
+         />
 
     <TextView
-        android:id="@+id/textView8"
-        android:layout_width="240dp"
+
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="150dp"
-        android:layout_marginTop="80dp"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
         android:text="@string/to_ensure_a_positive_and_productive_physical_and_cultural_environment_nto_advance_excellence_in_teaching_nto_effectively_enhance_communication_to_excel_in_the_collaborative_process"
         android:textSize="20sp"
-        android:layout_marginStart="150dp" />
-
-    <TextView
-        android:id="@+id/textView9"
-        android:layout_width="220dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="280dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="@string/from_principal_s_desk_nmr_abc_xyz_nmcom_bed_njoined_this_school_on_25th_january_2012"
-        android:layout_marginStart="20dp" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="250dp"
-        android:layout_marginTop="280dp"
-        tools:srcCompat="@tools:sample/avatars[11]"
-        android:layout_marginStart="250dp"
-        android:contentDescription="@string/todo" />
-
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="390dp"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:text="@string/about_us"
-        android:layout_marginStart="20dp" />
-
-    <TextView
-        android:id="@+id/editText3"
-        android:layout_width="370dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="410dp"
-        android:textSize="20sp"
-        android:ems="10"
-        android:text="@string/abt_us"
-        android:layout_marginStart="20dp"
          />
 
 
-</android.widget.RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>
